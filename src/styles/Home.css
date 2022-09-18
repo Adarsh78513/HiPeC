@@ -1,0 +1,209 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(247, 247, 249);
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(247, 247, 249);
+    font-size: 1.1em;
+}
+
+
+.resources-content {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; */
+    background-color: rgb(198,0,0);
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 7px;
+    box-shadow: 3px 3px 4px #888888;
+    color: white;
+}
+
+.resources-content:hover {
+    background-color: rgb(198,0,0);
+    box-shadow: 5px 5px 5px #888888;
+    /* color: black; */
+    scale: 1.02;
+}
+
+
+.resources-content:hover a{
+    color: black;
+}
+
+
+.header {
+    font-family: arial,sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(50,50,50);
+    width: fill;
+    padding: 45px;
+    box-shadow: 5px 5px 5px #888888;
+    color: white;
+}
+
+.lab-name-header {
+    font-size: 2.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(50,50,50);
+    width: 100%;
+}
+
+.header-discription {
+    font-size: smaller;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    text-align: right;
+    background-color: rgb(50,50,50);
+    width: 100%;
+}
+
+
+.ResearchFocus-outer {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.ResearchFocus {
+    width: 60%;
+    background-color: rgb(247, 247, 249);
+}
+
+.ResearchFocus img {
+    margin: 10px;
+}
+
+.ResearchFocus ::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.ResearchFocusText {
+    font-size: 1.1em;
+    text-align: center;
+}
+
+.Research-outer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    color: black;
+}
+
+.Research {
+    width: 60%;
+}
+
+
+h1{
+    font-size: 2em;
+    font-family: arial,sans-serif;
+    color: red;
+}
+
+
+
+.Openings-outer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    color: black;
+}
+
+.Openings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 60%;
+}
+
+.resources-outer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    color: black;
+    /* background-color: red; */
+}
+
+.resources {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; */
+    width: 60%;
+}
+
+
+.resources-content a {
+    color: white;
+    /* text-decoration: none; */
+}
+
+.link-button{
+    background-color: rgb(198,0,0);
+    color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgb(100, 0, 0);
+}
+
+.link-button:hover {
+    background-color: rgb(150, 0, 0);
+    /* color: black; */
+}
+
+.link-button a{
+    color: white;
+    text-decoration: none;
+}
