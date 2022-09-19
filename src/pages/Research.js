@@ -1,13 +1,4 @@
 import Collapsible from "../cpmponents/Collapsible";
-import {
-    Accordion,
-    AccordionItem,
-    AccordionItemButton,
-    AccordionItemHeading,
-    AccordionItemPanel,
-} from 'react-accessible-accordion';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro' // <-- import styles to be used
 
 const Research = () => {
     return (
