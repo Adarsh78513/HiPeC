@@ -1,8 +1,13 @@
+* {
+    border: 2px solid yellow;
+}
+
+
 .home {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center; */
+    /* justify-content: center; */
     text-align: center;
     background-color: rgb(247, 247, 249);
 }
@@ -10,31 +15,24 @@
 .content {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center; */
+    /* justify-content: center; */
     text-align: center;
     background-color: rgb(247, 247, 249);
     font-size: 1.1em;
 }
 
 
+
 .resources-content {
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center; */
     background-color: rgb(198,0,0);
     width: 100%;
-    
-    padding: 18px;
-    left: -28px;
-    margin: 10px;
-    
+    margin-bottom: 20px;
     border-radius: 7px;
     box-shadow: 3px 3px 4px #888888;
     color: white;
     transition: 0.5s;
+    left: -28px;
 }
 
 .resources-content:hover {
@@ -53,36 +51,31 @@
 .header {
     font-family: arial,sans-serif;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    /* flex-direction: row; */
+    align-items: left;
+    justify-content: space-between;
     text-align: center;
     background-color: rgb(50,50,50);
     width: fill;
-    padding: 45px;
+    padding: 20px;
     box-shadow: 5px 5px 5px #888888;
     color: white;
 }
 
+#head_sample{
+    justify-content: space-between;
+}
+
 .lab-name-header {
     font-size: 2.5em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: rgb(50,50,50);
-    width: 100%;
 }
 
 .header-discription {
     font-size: smaller;
-    display: flex;
-    align-items: right;
-    justify-content: right;
-    text-align: right;
-    background-color: rgb(50,50,50);
-    width: 100%;
+    /* flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    padding: 1rem;
 }
 
 
