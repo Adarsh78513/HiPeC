@@ -228,5 +228,5 @@ h3{
     margin-bottom: 1rem;
     font-stretch: ultra-expanded;
     text-decoration: underline;
-    text-decoration-style: dotted;
+    /* text-decoration-style: dotted; */
 }
