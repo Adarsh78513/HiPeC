@@ -192,7 +192,7 @@ body{
 .flex-row{
     display: flex;
     flex-direction: row;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     align-items: center;
     /* flex-wrap: wrap; */
 
@@ -220,3 +220,13 @@ h1{
 
 }
 
+h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2779a7;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-stretch: ultra-expanded;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
